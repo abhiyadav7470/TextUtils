@@ -45,7 +45,7 @@ function Textarea(){
             <br></br>
             
             <h3>Enter words to replace</h3>
-            <input type={text} placeholder={"word you want to replace"} onChange={mouseOut} className="mx-3" ></input>
+            <input type={text} placeholder={"word you want to replace"} onChange={mouseOut} className="mx-3 darkmode" ></input>
             <input type={text} placeholder={"the word"} onKeyUp={replaceword}></input>
             <button onClick={replace}>Replace</button>
 
